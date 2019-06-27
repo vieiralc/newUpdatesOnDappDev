@@ -8,5 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "truffle-hdwallet-provider": "^1.0.0-web3one.5",
+    "zos-lib": "^2.4.0"
+  },
+  "dependencies": {
+    "node-gyp": "^5.0.1",
+    "rebuild": "^0.1.2"
+  }
 }

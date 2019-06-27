@@ -1,0 +1,53 @@
+{
+  "contracts": {
+    "Note": {
+      "address": "0x6eB65A1D64bec34173d0eF18E9a328F10e25a5c0",
+      "constructorCode": "608060405234801561001057600080fd5b5060d48061001f6000396000f3fe",
+      "bodyBytecodeHash": "dadefea7625af6e7085093735743eb39de66d7e5dbd6ae3357bce6d8b796a0c1",
+      "localBytecodeHash": "b58f0e7d2ec36b02599a78bc1e97535ee92e054237f3cf05b165c90d2c46ba63",
+      "deployedBytecodeHash": "b58f0e7d2ec36b02599a78bc1e97535ee92e054237f3cf05b165c90d2c46ba63",
+      "types": {
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Note",
+          "path": "..\\..\\..\\..\\C\\Users\\lucas.vieira\\Desktop\\ethUpdates\\contracts\\Note.sol",
+          "label": "number",
+          "astId": 61,
+          "type": "t_uint256",
+          "src": "97:22:1"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": [],
+        "storageUncheckedVars": [],
+        "storageDiff": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "ethUpdates/Note": [
+      {
+        "address": "0xbbaa3b71029A213CB16f17116b8da5b7E191619f",
+        "version": "1.0.0",
+        "implementation": "0x6eB65A1D64bec34173d0eF18E9a328F10e25a5c0",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "zosversion": "2.2",
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0xC433e05B2D51AAc1604d9B5616d6c65435eb5e3C"
+  }
+}

@@ -1,12 +1,12 @@
 # How to create upgradable smart contracts with zepplin os
 
-##### install:
+## dependencies:
 ```
   npm install zos --global
   npm install zos-lib --save-dev
 ```
 
-##### instructions:
+## instructions:
 ```
   zos init MyProject
 ```

@@ -1,1 +1,1 @@
-Exploring some dapp development updates
+How to create upgradable smart contracts with zepplin os

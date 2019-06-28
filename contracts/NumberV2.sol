@@ -1,6 +1,7 @@
 pragma solidity ^0.5.0;
-
 import "zos-lib/contracts/Initializable.sol";
+
+// Second version: contract updated
 
 contract Note {
     uint256 private number;

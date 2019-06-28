@@ -8,7 +8,7 @@
 
 ## instructions:
 ```
-  zos init MyProject
+  zos init yourProjectName
 ```
 
 ##### import the contract:
@@ -18,7 +18,7 @@
 
 ##### to deploy the logic contract:
 ``` 
-  zos add Contract
+  zos add yourContractName
   zos session --network networkName --from YOUR_DEPLOYMENT_ACCOUNT --expires 7200
   zos push
 ```
